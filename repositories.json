@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "agid-related-repositories-v0.1",
+  "repository": "agid-africa-central-africa-index",
+  "relatedRepositories": [
+    {
+      "repository": "agid-country-cd",
+      "kind": "country-parent",
+      "region": "central_africa",
+      "countryCode": "CD",
+      "countryName": "DR Congo",
+      "parentRepository": "agid-africa-central-africa-index",
+      "stage": "wave-1-country-parent",
+      "githubCreateNow": false,
+      "dataReady": false,
+      "creationRationale": "Country and territory parents wait for maintainers, source licenses, postal policy, address hierarchy rules, quality gates, and no-raw checks.",
+      "description": "AGID country or territory pack for DR Congo; stores safe rules, sources, quality gates, and synthetic fixtures only."
+    },
+    {
+      "repository": "agid-country-ao",
+      "kind": "country-parent",
+      "region": "central_africa",
+      "countryCode": "AO",
+      "countryName": "Angola",
+      "parentRepository": "agid-africa-central-africa-index",
+      "stage": "wave-1-country-parent",
+      "githubCreateNow": false,
+      "dataReady": false,
+      "creationRationale": "Country and territory parents wait for maintainers, source licenses, postal policy, address hierarchy rules, quality gates, and no-raw checks.",
+      "description": "AGID country or territory pack for Angola; stores safe rules, sources, quality gates, and synthetic fixtures only."
+    },
+    {
+      "repository": "agid-country-cm",
+      "kind": "country-parent",
+      "region": "central_africa",
+      "countryCode": "CM",
+      "countryName": "Cameroon",
+      "parentRepository": "agid-africa-central-africa-index",
+      "stage": "wave-1-country-parent",
+      "githubCreateNow": false,
+      "dataReady": false,
+      "creationRationale": "Country and territory parents wait for maintainers, source licenses, postal policy, address hierarchy rules, quality gates, and no-raw checks.",
+      "description": "AGID country or territory pack for Cameroon; stores safe rules, sources, quality gates, and synthetic fixtures only."
+    },
+    {
+      "repository": "agid-country-td",
+      "kind": "country-parent",
+      "region": "central_africa",
+      "countryCode": "TD",
+      "countryName": "Chad",
+      "parentRepository": "agid-africa-central-africa-index",
+      "stage": "wave-1-country-parent",
+      "githubCreateNow": false,
+      "dataReady": false,
+      "creationRationale": "Country and territory parents wait for maintainers, source licenses, postal policy, address hierarchy rules, quality gates, and no-raw checks.",
+      "description": "AGID country or territory pack for Chad; stores safe rules, sources, quality gates, and synthetic fixtures only."
+    },
+    {
+      "repository": "agid-country-cf",
+      "kind": "country-parent",
+      "region": "central_africa",
+      "countryCode": "CF",
+      "countryName": "Central African Republic",
+      "parentRepository": "agid-africa-central-africa-index",
+      "stage": "wave-1-country-parent",
+      "githubCreateNow": false,
+      "dataReady": false,
+      "creationRationale": "Country and territory parents wait for maintainers, source licenses, postal policy, address hierarchy rules, quality gates, and no-raw checks.",
+      "description": "AGID country or territory pack for Central African Republic; stores safe rules, sources, quality gates, and synthetic fixtures only."
+    },
+    {
+      "repository": "agid-country-cg",
+      "kind": "country-parent",
+      "region": "central_africa",
+      "countryCode": "CG",
+      "countryName": "Congo",
+      "parentRepository": "agid-africa-central-africa-index",
+      "stage": "wave-1-country-parent",
+      "githubCreateNow": false,
+      "dataReady": false,
+      "creationRationale": "Country and territory parents wait for maintainers, source licenses, postal policy, address hierarchy rules, quality gates, and no-raw checks.",
+      "description": "AGID country or territory pack for Congo; stores safe rules, sources, quality gates, and synthetic fixtures only."
+    },
+    {
+      "repository": "agid-country-ga",
+      "kind": "country-parent",
+      "region": "central_africa",
+      "countryCode": "GA",
+      "countryName": "Gabon",
+      "parentRepository": "agid-africa-central-africa-index",
+      "stage": "wave-1-country-parent",
+      "githubCreateNow": false,
+      "dataReady": false,
+      "creationRationale": "Country and territory parents wait for maintainers, source licenses, postal policy, address hierarchy rules, quality gates, and no-raw checks.",
+      "description": "AGID country or territory pack for Gabon; stores safe rules, sources, quality gates, and synthetic fixtures only."
+    },
+    {
+      "repository": "agid-country-gq",
+      "kind": "country-parent",
+      "region": "central_africa",
+      "countryCode": "GQ",
+      "countryName": "Equatorial Guinea",
+      "parentRepository": "agid-africa-central-africa-index",
+      "stage": "wave-1-country-parent",
+      "githubCreateNow": false,
+      "dataReady": false,
+      "creationRationale": "Country and territory parents wait for maintainers, source licenses, postal policy, address hierarchy rules, quality gates, and no-raw checks.",
+      "description": "AGID country or territory pack for Equatorial Guinea; stores safe rules, sources, quality gates, and synthetic fixtures only."
+    },
+    {
+      "repository": "agid-country-st",
+      "kind": "country-parent",
+      "region": "central_africa",
+      "countryCode": "ST",
+      "countryName": "Sao Tome and Principe",
+      "parentRepository": "agid-africa-central-africa-index",
+      "stage": "wave-1-country-parent",
+      "githubCreateNow": false,
+      "dataReady": false,
+      "creationRationale": "Country and territory parents wait for maintainers, source licenses, postal policy, address hierarchy rules, quality gates, and no-raw checks.",
+      "description": "AGID country or territory pack for Sao Tome and Principe; stores safe rules, sources, quality gates, and synthetic fixtures only."
+    }
+  ]
+}

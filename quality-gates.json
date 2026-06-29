@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "agid-quality-gates-v0.1",
+  "repository": "agid-africa-central-africa-index",
+  "gates": [
+    {
+      "id": "json-valid",
+      "required": true
+    },
+    {
+      "id": "no-raw-address",
+      "required": true
+    },
+    {
+      "id": "source-license-declared",
+      "required": true
+    },
+    {
+      "id": "breadcrumb-reconstruction-defined",
+      "required": true
+    },
+    {
+      "id": "postal-status-declared",
+      "required": true
+    },
+    {
+      "id": "postal-weak-or-no-postal-policy-declared",
+      "required": true
+    },
+    {
+      "id": "special-region-display-policy",
+      "required": true
+    },
+    {
+      "id": "large-gis-externalized",
+      "required": true
+    }
+  ]
+}

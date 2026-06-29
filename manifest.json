@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "agid-index-repository-manifest-v0.1",
+  "repository": "agid-africa-central-africa-index",
+  "kind": "region-index",
+  "owner": "dawnportinfo-design",
+  "canonicalContinent": "africa",
+  "region": "central_africa",
+  "stage": "wave-0-index",
+  "dataReady": true,
+  "sourcePlanVersion": "agid-africa-repository-creation-plan-v1",
+  "generatedAt": "2026-06-29T05:17:39.122Z",
+  "privacy": {
+    "rawAddressStorage": false,
+    "recipientStorage": false,
+    "precisePrivateCoordinates": false,
+    "witnessMaterial": false,
+    "privateKeys": false
+  },
+  "relatedRepositories": [
+    {
+      "repository": "agid-country-cd",
+      "kind": "country-parent",
+      "countryCode": "CD",
+      "countryName": "DR Congo",
+      "stage": "wave-1-country-parent",
+      "dataReady": false
+    },
+    {
+      "repository": "agid-country-ao",
+      "kind": "country-parent",
+      "countryCode": "AO",
+      "countryName": "Angola",
+      "stage": "wave-1-country-parent",
+      "dataReady": false
+    },
+    {
+      "repository": "agid-country-cm",
+      "kind": "country-parent",
+      "countryCode": "CM",
+      "countryName": "Cameroon",
+      "stage": "wave-1-country-parent",
+      "dataReady": false
+    },
+    {
+      "repository": "agid-country-td",
+      "kind": "country-parent",
+      "countryCode": "TD",
+      "countryName": "Chad",
+      "stage": "wave-1-country-parent",
+      "dataReady": false
+    },
+    {
+      "repository": "agid-country-cf",
+      "kind": "country-parent",
+      "countryCode": "CF",
+      "countryName": "Central African Republic",
+      "stage": "wave-1-country-parent",
+      "dataReady": false
+    },
+    {
+      "repository": "agid-country-cg",
+      "kind": "country-parent",
+      "countryCode": "CG",
+      "countryName": "Congo",
+      "stage": "wave-1-country-parent",
+      "dataReady": false
+    },
+    {
+      "repository": "agid-country-ga",
+      "kind": "country-parent",
+      "countryCode": "GA",
+      "countryName": "Gabon",
+      "stage": "wave-1-country-parent",
+      "dataReady": false
+    },
+    {
+      "repository": "agid-country-gq",
+      "kind": "country-parent",
+      "countryCode": "GQ",
+      "countryName": "Equatorial Guinea",
+      "stage": "wave-1-country-parent",
+      "dataReady": false
+    },
+    {
+      "repository": "agid-country-st",
+      "kind": "country-parent",
+      "countryCode": "ST",
+      "countryName": "Sao Tome and Principe",
+      "stage": "wave-1-country-parent",
+      "dataReady": false
+    }
+  ]
+}
