@@ -23,15 +23,15 @@
       "required": true
     },
     {
-      "id": "postal-weak-or-no-postal-policy-declared",
-      "required": true
-    },
-    {
       "id": "special-region-display-policy",
       "required": true
     },
     {
       "id": "large-gis-externalized",
+      "required": true
+    },
+    {
+      "id": "country-child-split-justified",
       "required": true
     }
   ]

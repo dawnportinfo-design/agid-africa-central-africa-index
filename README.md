@@ -7,18 +7,21 @@ AGID Central Africa index for Africa country and territory repository coordinati
 - Owner: `dawnportinfo-design`
 - Repository: `agid-africa-central-africa-index`
 - Stage: `wave-0-index`
-- Data readiness: `index-ready`
-- Privacy: no raw personal address, recipient, precise private coordinate, witness, or private-key material.
+- Index readiness: `index-ready`
+- Country data readiness: `sample-ready`
+- Privacy: no raw personal address, recipient, precise private coordinate, witness, proof-secret, or private-key material.
 
 ## Scope
+
+The Central Africa index tracks large low-density regions, humanitarian and conflict-sensitive display policy, forest and river corridors, and staged country packs.
 
 This repository is an AGID coordination index. It stores repository pointers,
 safe source policy, postal status, quality gates, conformance status, and
 special-region display policy for Africa address infrastructure.
 
 It does not store private delivery addresses, recipient records, precise private
-coordinates, witness material, private keys, large GIS extracts, map tiles,
-search indexes, or humanitarian datasets containing personal data.
+coordinates, witness material, proof secrets, private keys, large GIS extracts,
+map tiles, search indexes, routing networks, or carrier operational datasets.
 
 ## Related Repositories
 
@@ -35,23 +38,35 @@ search indexes, or humanitarian datasets containing personal data.
 ## Data Boundary
 
 GitHub may contain synthetic fixtures, rules, manifests, source notes, postal
-status, and quality gate metadata. Large geography, humanitarian datasets,
-building polygons, OSM/Overture extracts, routing networks, and generated
-caches must stay in external content-addressed packs.
+status, repository placement, and quality gate metadata. Large geography,
+hydrographic datasets, building polygons, OSM/Overture extracts, routing
+networks, map tiles, search indexes, and generated caches must stay in external
+content-addressed packs.
 
-## Postal-Weak And No-Postal Policy
+## Country And Territory Creation Policy
+
+Physical country repositories are created only when they have enough content to
+be useful: README, manifest, postal status, source policy, quality gates,
+synthetic tests, no-raw-address guardrails, and a maintainer path. Planned child
+repositories stay in this index until data volume, ownership, or pull-request
+pressure justifies a split.
+
+## Postal-Weak, Humanitarian, And Rural Policy
 
 Many Africa country packs require AGID-first delivery, postal-equivalent zones,
 informal settlement handling, rural and nomadic addressing, island and desert
-delivery profiles, and humanitarian delivery workflows. These modes must be
-declared as technical address infrastructure, not as raw address publication.
+delivery profiles, humanitarian delivery workflows, and city-growth tracking.
+These modes must be declared as technical address infrastructure, not as raw
+address publication.
+
 
 ## Special Region Policy
 
 AGID repository placement is a technical address-data organization rule. It does
 not imply sovereignty, recognition, or territorial ownership. Disputed, de
-facto, humanitarian, or special regions must carry explicit source, license,
-canonical region, and display policy before data publication.
+facto, overseas, island, desert, polar, maritime, or special regions must carry
+explicit source, license, canonical region, and display policy before data
+publication.
 
 ## Validation
 
